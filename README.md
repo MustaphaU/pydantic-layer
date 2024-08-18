@@ -1,4 +1,5 @@
 # pydantic-layer
+[Mostly copied!!! Credits](https://github.com/aws-samples/systems-manager-automation-for-operating-multicloud-workloads/blob/main/CustomLambdaLayerPackagingInstructions.md)
 
 These steps provide a guide on how to create an AWS Lambda Layer with Pydantic modules.  
 
@@ -153,6 +154,4 @@ Directory Structure to be created
 
 The **python3-pydantic-modules.zip** will now be in your downloads folder and ready for importing into a Lambda Layer. Refer to [Creating and deleting layers in Lambda](https://docs.aws.amazon.com/lambda/latest/dg/creating-deleting-layers.html) for detailed steps on creating a lambda layer with the above zip file.
 
-Credits: mostly copied with only slight modifications
 
-https://github.com/aws-samples/systems-manager-automation-for-operating-multicloud-workloads/blob/main/CustomLambdaLayerPackagingInstructions.md
