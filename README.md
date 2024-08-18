@@ -1,7 +1,7 @@
 # pydantic-layer
 [Mostly copied!!! Credits](https://github.com/aws-samples/systems-manager-automation-for-operating-multicloud-workloads/blob/main/CustomLambdaLayerPackagingInstructions.md)
 
-These steps provide a guide on how to create an AWS Lambda Layer with Pydantic modules.  
+Simply download the zip file `pydanticlayer.zip` included in this repo or follow the steps below to create yours. 
 
 AWS Lambda uses an **Amazon Linux** environment in the backend.  We will package our Pydantic Python Modules into a Lambda Layer using an **Amazon Linux 2023** docker image pre-built with **`Python3.12`** runtime. Refer to [Deploy Python Lambda functions with container images](https://docs.aws.amazon.com/lambda/latest/dg/python-image.html#python-image-base) for more information.
 
