@@ -67,7 +67,7 @@ For ease of use, we will be using **AWS CloudShell**, which comes pre-configured
 2. Install `zip` and `nano` packages
     
     ```bash
-    dnf install nano zip -y
+    yum install nano zip -y
     
     ```
     
