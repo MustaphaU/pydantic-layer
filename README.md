@@ -25,7 +25,7 @@ For ease of use, we will be using **AWS CloudShell**, which comes pre-configured
     
     ```
     
-4. Copy and paste the content below into the `dockerfile`. Here, we are using image for `Python3.12` runtime. For the URIs of other runtime, please see [Amazon ECR Public Gallery](https://gallery.ecr.aws/lambda/python/)
+4. Copy and paste the content below into the `dockerfile`. Here, we are using the image for `Python3.12` runtime. For the URI of other runtimes, please see [Amazon ECR Public Gallery](https://gallery.ecr.aws/lambda/python/)
     
     ```
     FROM public.ecr.aws/lambda/python:3.12
@@ -109,7 +109,7 @@ Directory Structure to be created
     
     ```
     
-2. Copy and paste content below into the `requirements.txt` file, then Save (ctrl+s) and exit Nano (ctrl+x)
+2. Copy and paste content below into the `requirements.txt` file, then Save (ctrl+o) and exit Nano (ctrl+x)
     
     ```bash
     pydantic==2.8.2
