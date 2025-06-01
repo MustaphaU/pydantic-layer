@@ -35,7 +35,7 @@ For ease of use, we will be using **AWS CloudShell**, which comes pre-configured
     
     ```
     
-5. Save (**ctrl+s**) and exit Nano (**ctrl+x**)
+5. Save (**ctrl+o**) and exit Nano (**ctrl+x**)
 6. Build docker image with docker build command
     
     ```bash
